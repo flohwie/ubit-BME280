@@ -19,9 +19,10 @@ GND --> 0
 
 
 **Note: sensor calibration parameters stored in registers 0x88-0xA1 and 0xE01-0xE07 
- are declared due to memory restrictions on the micro:bit.**
+ are declared due to memory restrictions on the micro:bit.
+ Use get_calibration_data.py to read the needed values**
 
-Class currently implements only "forecd mode" (meaning that a single measurement
+Class currently implements only "forced mode" (meaning that a single measurement
 is performed, when finished, the sensor returns to sleep mode and the measurement
 results can be read from the data registers) and the recommended settings
 for "Weather monitoring" (1x oversampling for temperature,
