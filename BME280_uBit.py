@@ -1,6 +1,6 @@
 from microbit import i2c, sleep
 
-# calibration parameters stored in the sensor
+# calibration parameters stored in the sensor (adjust to your sensor's values!)
 dig_T1 = 28212
 dig_T2 = 26305
 dig_T3 = 50
